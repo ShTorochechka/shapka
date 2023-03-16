@@ -1,0 +1,50 @@
+@font-face {
+    font-family: fnt;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+} 
+@font-face {
+    font-family: ww;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.menu{
+    background-color: rgb(150, 219, 252);
+    height: 50px;
+    width: 1500px;
+    display: flex;
+   justify-content: space-between;
+   margin-left: 200px;
+}
+
+#odin{
+    margin: 3px;
+    font-family: ww;
+    color: rgb(134, 52, 27);
+    font-size: 34px;
+    padding: 5px 50px 5px 200px;
+}
+
+#odi{
+    margin: 3px;
+    font-family: ww;
+    color: rgb(134, 52, 27);
+    font-size: 34px;
+    padding: 5px 50px 5px 50px;
+}
+
+#od{
+    margin: 3px;
+    font-family: ww;
+    color: rgb(134, 52, 27);
+    font-size: 34px;
+    padding: 5px 200px 5px 100px;
+}
+
+#link{
+    margin: 3px;
+    font-family: fnt;
+    color: red;
+    font-size: 34px;
+    padding: 5px 50px 5px 100px;
+    text-decoration: none;
+}
